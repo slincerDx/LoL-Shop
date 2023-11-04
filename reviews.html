@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,400;1,700&family=Inter:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="burger-menu active-menu-close">
+        <a class="burger-menu-logo" href="/">
+          <span>Elo</span>Work
+        </a>
+        <button class="burger-menu__btn-close">
+          <img src="images/close.png" alt="close">
+        </button>
+        <nav class="burger-menu__nav first-nav">
+          <div class="burger-menu__nav__block">
+            Menu
+            <btn id="btn-lang" class="select-language mobile">
+              <span>EN</span>
+              <img src="images/en-language.png" alt="en-language">
+              <ul class="select-language__list-mobile  select-language__list--hidden">
+                <li class="select-language__list-item">
+                  <img src="images/en-language.png" alt="flag">
+                  English
+                </li>
+                <li class="select-language__list-item">
+                  <img src="images/portugal-len.png" alt="flag">
+                  Portuguese
+                </li>
+              </ul>
+            </btn>
+          </div>
+          <ul class="burger-menu__list">
+            <li class="burger-menu__list-item">
+              <a class="burger-menu__list-link" href="">
+                About us
+              </a>
+            </li>
+            <li class="burger-menu__list-item">
+              <a class="burger-menu__list-link" href="shop.html">
+                Shop
+              </a>
+            </li>
+            <li class="burger-menu__list-item">
+              <a class="burger-menu__list-link" href="reviews.html">
+                Reviews
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="burger-menu__nav">
+          <span class="burger-menu__nav-span">Need help?</span>
+          <ul class="burger-menu__list">
+            <li class="burger-menu__list-item">
+              <a class="burger-menu__list-link" href="">
+                Contact
+              </a>
+            </li>
+            <li class="burger-menu__list-item">
+              <a class="burger-menu__list-link" href="shop.html">
+                FAQ
+              </a>
+            </li>
+          </ul>
+        </nav>
+    
+        <nav class="burger-menu__nav">
+          <span class="burger-menu__nav-span">Legal</span>
+          <ul class="burger-menu__list">
+            <li class="burger-menu__list-item">
+              <a class="burger-menu__list-link" href="">
+                Terms & Conditions
+              </a>
+            </li>
+            <li class="burger-menu__list-item">
+              <a class="burger-menu__list-link" href="shop.html">
+                Privacy Policy
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    
+      <header class="header-mobile">
+        <a class="logo" href="index.html">
+          <span>Elo</span>Work
+        </a>
+        <btn class="burger-menu-btn">
+          <img src="images/menu.png" alt="menu">
+        </btn>
+      </header>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="index.html">
+                    <span>Elo</span>Work
+                </a>
+
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">About us</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="reviews.html">Reviews</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="authorization">
+                    <a class="authorization-link" href="login.html">
+                        Login
+                    </a>
+                    <span>/</span>
+                    <a class="authorization-link" href="registration.html">
+                        Register
+                    </a>
+                    <btn id="btn-lan" class="select-language">
+                      <span>EN</span>
+                      <img src="images/en-language.png" alt="en-language">
+                    </btn>
+                    <ul class="select-language__list  select-language__list--hidden">
+                      <li class="select-language__list-item">
+                        <img src="images/en-language.png" alt="flag">
+                        English
+                      </li>
+                      <li class="select-language__list-item">
+                        <img src="images/portugal-len.png" alt="flag">
+                        Portuguese
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="reviews">
+        <div class="container">
+            <h1 class="reviews-title">
+                Our Reviews
+            </h1>
+
+            <div class="reviews__inner">
+                <img class="reviews__inner-img" src="images/bg-reviews.png" alt="bg-reviews">
+                <div class="reviews__statistic">
+                    <div class="reviews__statistic-left">
+                        <div class="reviews__statistic-left_rating">
+                            <span>4.6</span>
+                            <img src="images/stars.svg" alt="stars-reviews">
+                        </div>
+                        <p class="reviews__statistic-left_text">
+                            (1862) Reviews
+                        </p>
+                    </div>
+
+                    <div class="reviews__statistic-right">
+                        <div class="reviews__statistic-right_item">
+                            <img src="images/icon-star.svg" alt="icon-star">
+                            <p class="reviews__statistic-right_item-text">5</p>
+                            <div class="reviews__statistic-right_item-bar"></div>
+                            <div style="width: 85px;" class="reviews__statistic-right_item-minus"></div>
+                            <span>85%</span>
+                        </div>
+                        <div class="reviews__statistic-right_item">
+                            <img src="images/icon-star.svg" alt="icon-star">
+                            <p class="reviews__statistic-right_item-text">4</p>
+                            <div class="reviews__statistic-right_item-bar"></div>
+                            <div style="width: 10px;" class="reviews__statistic-right_item-minus"></div>
+                            <span>10%</span>
+                        </div>
+                        <div class="reviews__statistic-right_item">
+                            <img src="images/icon-star.svg" alt="icon-star">
+                            <p class="reviews__statistic-right_item-text">3</p>
+                            <div class="reviews__statistic-right_item-bar"></div>
+                            <div style="width: 5px;" class="reviews__statistic-right_item-minus"></div>
+                            <span>5%</span>
+                        </div>
+                        <div class="reviews__statistic-right_item">
+                            <img src="images/icon-star.svg" alt="icon-star">
+                            <p class="reviews__statistic-right_item-text">2</p>
+                            <div class="reviews__statistic-right_item-bar"></div>
+                            <div style="width: 0px;" class="reviews__statistic-right_item-minus"></div>
+                            <span>0%</span>
+                        </div>
+                        <div class="reviews__statistic-right_item">
+                            <img src="images/icon-star.svg" alt="icon-star">
+                            <p class="reviews__statistic-right_item-text">1</p>
+                            <div class="reviews__statistic-right_item-bar"></div>
+                            <div style="width: 0px;" class="reviews__statistic-right_item-minus"></div>
+                            <span>0%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-write review-write--hidden">
+                  <div class="review-write__block">
+                    <h4 class="review-write-title">
+                      Review
+                    </h4>
+                    <div class="rating">
+                      <div class="rating__items">
+                        <input id="rating-5" class="rating__item" type="radio" name="rating" value="5">
+                        <label class="rating__label" for="rating-5"></label>
+                        <input id="rating-4" class="rating__item" type="radio" name="rating" value="4">
+                        <label class="rating__label" for="rating-4"></label>
+                        <input id="rating-3" class="rating__item" type="radio" name="rating" value="3">
+                        <label class="rating__label" for="rating-3"></label>
+                        <input id="rating-2" class="rating__item" type="radio" name="rating" value="2">
+                        <label class="rating__label" for="rating-2"></label>
+                        <input id="rating-1" class="rating__item" type="radio" name="rating" value="1">
+                        <label class="rating__label" for="rating-1"></label>
+                      </div>
+                    </div>
+                  </div>
+                  <textarea class="review-write__area"  id="" cols="50" rows="7" placeholder="Write a review"></textarea>
+                  <div class="">
+                    <button class="review-write__btn-back">
+                      Back
+                    </button>
+                    <button class="review-write__btn-submit" type="submit">
+                      Submit
+                    </button>
+                  </div>
+                </div>
+
+                <div class="reviews__leave">
+                  <button class="reviews__leave-btn">
+                    Leave a review
+                  </button>
+                </div>
+
+                <div class="reviews__people">
+                    <div class="reviews__people-info">
+                        <img class="reviews__people-info_img" src="images/icon-avatar.svg" alt="icon-people">
+                        <div class="reviews__people-info_block">
+                            <p>Nick Name</p>
+                            <img src="images/small-icon.svg" alt="count-stars">
+                        </div>
+                    </div>
+                    <p class="reviews__people-text">
+                        I messed up, purchased the wrong region, was able to contact customer service and they provided
+                        me with a new LoL account of the correct region at no additional cost. Totally recommended!
+                    </p>
+                    <p class="reviews__people-date">
+                        5 day ago
+                    </p>
+                </div>
+                <div class="reviews__people">
+                    <div class="reviews__people-info">
+                        <img class="reviews__people-info_img" src="images/icon-avatar.svg" alt="icon-people">
+                        <div class="reviews__people-info_block">
+                            <p>Nick Name</p>
+                            <img src="images/small-icon.svg" alt="count-stars">
+                        </div>
+                    </div>
+                    <p class="reviews__people-text">
+                        I messed up, purchased the wrong region, was able to contact customer service and they provided
+                        me with a new LoL account of the correct region at no additional cost. Totally recommended!
+                    </p>
+                    <p class="reviews__people-date">
+                        5 day ago
+                    </p>
+                </div>
+                <div class="reviews__people">
+                    <div class="reviews__people-info">
+                        <img class="reviews__people-info_img" src="images/icon-avatar.svg" alt="icon-people">
+                        <div class="reviews__people-info_block">
+                            <p>Nick Name</p>
+                            <img src="images/small-icon.svg" alt="count-stars">
+                        </div>
+                    </div>
+                    <p class="reviews__people-text">
+                        I messed up, purchased the wrong region, was able to contact customer service and they provided
+                        me with a new LoL account of the correct region at no additional cost. Totally recommended!
+                    </p>
+                    <p class="reviews__people-date">
+                        5 day ago
+                    </p>
+                </div>
+                <div class="pagination">
+                    <svg class="pagination-arrow_left"  xmlns="http://www.w3.org/2000/svg" width="25" height="13" viewBox="0 0 25 13" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M6.49609 10.4023L4.71565 8.54739C4.33486 8.14812 4.61984 7.50247 5.17338 7.50247L23.9572 7.50247C24.6532 7.50247 25 6.94033 25 6.24942V6.2598C25 5.56888 24.6532 4.99881 23.9572 4.99881L5.1923 4.99881C4.63623 4.99881 4.35251 4.3244 4.73835 3.92764L6.50867 2.10269C6.98782 1.60453 6.96639 0.809997 6.45824 0.339384L6.45573 0.333891C5.95388 -0.131721 5.1671 -0.107437 4.69425 0.388212L0.688324 4.56607C-0.233404 5.53484 -0.228374 7.04956 0.697136 8.01334L4.66774 12.1161C5.13932 12.6068 5.91986 12.6305 6.42044 12.1686L6.43303 12.1558C6.93992 11.6889 6.96767 10.9029 6.49609 10.4023Z"
+                            fill="white" />
+                    </svg>
+                    <a class="pagination-counter" href="#">1</a>
+                    <a class="pagination-counter" href="#">2</a>
+                    <a class="pagination-counter" href="#">3</a>
+                    <a class="pagination-counter" href="#">4</a>
+                    <a class="pagination-counter" href="#">...</a>
+                    <svg class="pagination-arrow_right" xmlns="http://www.w3.org/2000/svg" width="25" height="13" viewBox="0 0 25 13" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M18.5039 2.09787L20.2843 3.95273C20.6651 4.35201 20.3802 4.99765 19.8266 4.99765L1.04278 4.99765C0.34676 4.99765 -9.72105e-07 5.55979 -1.09291e-06 6.2507L-1.09109e-06 6.24033C-1.2119e-06 6.93124 0.346759 7.50131 1.04278 7.50131L19.8077 7.50132C20.3638 7.50132 20.6475 8.17572 20.2616 8.57248L18.4913 10.3974C18.0122 10.8956 18.0336 11.6901 18.5418 12.1607L18.5443 12.1662C19.0461 12.6318 19.8329 12.6076 20.3057 12.1119L24.3117 7.93406C25.2334 6.96528 25.2284 5.45057 24.3029 4.48679L20.3323 0.384007C19.8607 -0.106643 19.0801 -0.130333 18.5796 0.331517L18.567 0.344334C18.0601 0.811197 18.0323 1.59721 18.5039 2.09787Z"
+                            fill="white" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/review.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

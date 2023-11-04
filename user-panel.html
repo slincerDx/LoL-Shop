@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,400;1,700&family=Inter:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="burger-menu active-menu-close">
+            <a class="burger-menu-logo" href="/">
+              <span>Elo</span>Work
+            </a>
+            <button class="burger-menu__btn-close">
+              <img src="images/close.png" alt="close">
+            </button>
+            <nav class="burger-menu__nav first-nav">
+              <div class="burger-menu__nav__block">
+                <div class="user">
+                    <img src="images/user-logo.png" alt="user-logo">
+                    <div class="user__info">
+                        <p class="user__info-name">
+                            UserName
+                        </p>
+                        <span class="user__info-balance">
+                            1120$
+                        </span>
+                    </div>
+                </div>
+                <btn id="btn-lang" class="select-language mobile">
+                    <span>EN</span>
+                    <img src="images/en-language.png" alt="en-language">
+                    <ul class="select-language__list-mobile  select-language__list--hidden">
+                      <li class="select-language__list-item">
+                        <img src="images/en-language.png" alt="flag">
+                        English
+                      </li>
+                      <li class="select-language__list-item">
+                        <img src="images/portugal-len.png" alt="flag">
+                        Portuguese
+                      </li>
+                    </ul>
+                  </btn>
+              </div>
+              <span class="burger-menu__nav-span">Menu</span>
+              <ul class="burger-menu__list">
+                <li class="burger-menu__list-item">
+                  <a class="burger-menu__list-link" href="">
+                    About us
+                  </a>
+                </li>
+                <li class="burger-menu__list-item">
+                  <a class="burger-menu__list-link" href="shop.html">
+                    Shop
+                  </a>
+                </li>
+                <li class="burger-menu__list-item">
+                  <a class="burger-menu__list-link" href="reviews.html">
+                    Reviews
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <nav class="burger-menu__nav">
+              <span class="burger-menu__nav-span">Need help?</span>
+              <ul class="burger-menu__list">
+                <li class="burger-menu__list-item">
+                  <a class="burger-menu__list-link" href="">
+                    Contact
+                  </a>
+                </li>
+                <li class="burger-menu__list-item">
+                  <a class="burger-menu__list-link" href="shop.html">
+                    FAQ
+                  </a>
+                </li>
+              </ul>
+            </nav>
+        
+            <nav class="burger-menu__nav">
+              <span class="burger-menu__nav-span">Legal</span>
+              <ul class="burger-menu__list">
+                <li class="burger-menu__list-item">
+                  <a class="burger-menu__list-link" href="">
+                    Terms & Conditions
+                  </a>
+                </li>
+                <li class="burger-menu__list-item">
+                  <a class="burger-menu__list-link" href="shop.html">
+                    Privacy Policy
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        
+          <header class="header-mobile">
+            <a class="logo" href="index.html">
+              <span>Elo</span>Work
+            </a>
+            <btn class="burger-menu-btn">
+              <img src="images/menu.png" alt="menu">
+            </btn>
+          </header>
+        <header class="header-user">
+            <div class="container">
+                <div class="header-user__inner">
+                    <a class="logo" href="/"><span>Elo</span>Work</a>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__list-item">
+                                <a class="nav__list-link" href="/">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav__list-item">
+                                <a class="nav__list-link" href="shop.html">
+                                    Shop
+                                </a>
+                            </li>
+                            <li class="nav__list-item">
+                                <a class="nav__list-link" href="reviews.html">
+                                    Reviews
+                                </a>
+                            </li>
+                            <li class="nav__list-item">
+                                <a class="nav__list-link" href="help.html">
+                                    Help
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="user">
+                        <div class="user__info">
+                            <p class="user__info-name">
+                                UserName
+                            </p>
+                            <span class="user__info-balance">
+                                1120$
+                            </span>
+                        </div>
+                        <img src="images/user-logo.png" alt="user-logo">
+                    </div>
+                    <div class="language-wrap">
+                        <btn id="btn-lan" class="select-language">
+                            <span>EN</span>
+                            <img src="images/en-language.png" alt="en-language">
+                        </btn>
+                        <ul class="select-language__list select-language__list-user select-language__list--hidden">
+                            <li class="select-language__list-item">
+                              <img src="images/en-language.png" alt="flag">
+                              English
+                            </li>
+                            <li class="select-language__list-item">
+                              <img src="images/portugal-len.png" alt="flag">
+                              Portuguese
+                            </li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="personal-area">
+            <div class="container">
+                <div class="personal-area__wrap">
+                    <div class="personal-area__inner">
+                        <div class="personal-area__info">
+                            <div class="personal-area__info-top">
+                                <div class="personal-area__info__top-user">
+                                    <img src="images/user-logo-big.png" alt="user-logo">
+                                    <p class="personal-area__info__top-user-name">
+                                        UserName
+                                    </p>
+                                    <div class="personal-area__info__top-user__logout">
+                                        <img src="images/logout-icon.png" alt="logout-icon">
+                                        <span>Logout</span>
+                                    </div>
+                                </div>
+                                <div class="personal-area__info__top__balance">
+                                    Balance — <span>1120$</span>
+                                    <button class="personal-area__info__top__balance-btn">
+                                        Up balance
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="personal-area__info__history">
+                                <h4 class="personal-area__info__history-title">
+                                    History of operations
+                                </h4>
+                                <div class="personal-area__info__history-items">
+                                    <div class="personal-area__info__history-item">
+                                        <div class="personal-area__info__history-item-name">
+                                            Replenishment of the balance
+                                        </div>
+                                        <div class="personal-area__info__history-item-date">
+                                            October 12, 0:11
+                                        </div>
+                                        <div class="personal-area__info__history-item-money">
+                                            +100$
+                                        </div>
+                                    </div>
+                                    <div class="personal-area__info__history-item">
+                                        <div class="personal-area__info__history-item-name">
+                                            Account purchase
+                                        </div>
+                                        <div class="personal-area__info__history-item-date">
+                                            October 12, 0:11
+                                        </div>
+                                        <div class="personal-area__info__history-item-money minus-money">
+                                            -100$
+                                        </div>
+                                    </div>
+                                    <div class="personal-area__info__history-item">
+                                        <div class="personal-area__info__history-item-name">
+                                            Replenishment of the balance
+                                        </div>
+                                        <div class="personal-area__info__history-item-date">
+                                            October 12, 0:11
+                                        </div>
+                                        <div class="personal-area__info__history-item-money">
+                                            +100$
+                                        </div>
+                                    </div>
+                                    <div class="personal-area__info__history-item">
+                                        <div class="personal-area__info__history-item-name">
+                                            Replenishment of the balance
+                                        </div>
+                                        <div class="personal-area__info__history-item-date">
+                                            October 12, 0:11
+                                        </div>
+                                        <div class="personal-area__info__history-item-money">
+                                            +100$
+                                        </div>
+                                    </div>
+                                    <div class="personal-area__info__history-item">
+                                        <div class="personal-area__info__history-item-name">
+                                            Replenishment of the balance
+                                        </div>
+                                        <div class="personal-area__info__history-item-date">
+                                            October 12, 0:11
+                                        </div>
+                                        <div class="personal-area__info__history-item-money">
+                                            +100$
+                                        </div>
+                                    </div>
+                                    <div class="personal-area__info__history-item">
+                                        <div class="personal-area__info__history-item-name">
+                                            Replenishment of the balance
+                                        </div>
+                                        <div class="personal-area__info__history-item-date">
+                                            October 12, 0:11
+                                        </div>
+                                        <div class="personal-area__info__history-item-money">
+                                            +100$
+                                        </div>
+                                    </div>
+                                    <div class="personal-area__info__history-item">
+                                        <div class="personal-area__info__history-item-name">
+                                            Replenishment of the balance
+                                        </div>
+                                        <div class="personal-area__info__history-item-date">
+                                            October 12, 0:11
+                                        </div>
+                                        <div class="personal-area__info__history-item-money">
+                                            +100$
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="personal-area__info__history-items-mobile">
+                                    <div class="personal-area__info__history-item">
+                                        <div class="personal-area__info__history-item-name">
+                                            Replenishment
+                                        </div>
+                                        <div class="personal-area__info__history-item-date">
+                                            18.10.23, 0:11
+                                        </div>
+                                        <div class="personal-area__info__history-item-money">
+                                            +100$
+                                        </div>
+                                    </div>
+                                    <div class="personal-area__info__history-item">
+                                        <div class="personal-area__info__history-item-name">
+                                            Purchase
+                                        </div>
+                                        <div class="personal-area__info__history-item-date">
+                                            18.10.23, 0:11
+                                        </div>
+                                        <div class="personal-area__info__history-item-money minus-money">
+                                            -100$
+                                        </div>
+                                    </div>
+                                    <div class="personal-area__info__history-item">
+                                        <div class="personal-area__info__history-item-name">
+                                            Replenishment
+                                        </div>
+                                        <div class="personal-area__info__history-item-date">
+                                            18.10.23, 0:11
+                                        </div>
+                                        <div class="personal-area__info__history-item-money">
+                                            +100$
+                                        </div>
+                                    </div>
+                                    <div class="personal-area__info__history-item">
+                                        <div class="personal-area__info__history-item-name">
+                                            Replenishment
+                                        </div>
+                                        <div class="personal-area__info__history-item-date">
+                                            18.10.23, 0:11
+                                        </div>
+                                        <div class="personal-area__info__history-item-money">
+                                            +100$
+                                        </div>
+                                    </div>
+                                    <div class="personal-area__info__history-item">
+                                        <div class="personal-area__info__history-item-name">
+                                            Replenishment
+                                        </div>
+                                        <div class="personal-area__info__history-item-date">
+                                            18.10.23, 0:11
+                                        </div>
+                                        <div class="personal-area__info__history-item-money">
+                                            +100$
+                                        </div>
+                                    </div>
+                                    <div class="personal-area__info__history-item">
+                                        <div class="personal-area__info__history-item-name">
+                                            Replenishment
+                                        </div>
+                                        <div class="personal-area__info__history-item-date">
+                                            18.10.23, 0:11
+                                        </div>
+                                        <div class="personal-area__info__history-item-money">
+                                            +100$
+                                        </div>
+                                    </div>
+                                    <div class="personal-area__info__history-item">
+                                        <div class="personal-area__info__history-item-name">
+                                            Replenishment
+                                        </div>
+                                        <div class="personal-area__info__history-item-date">
+                                            18.10.23, 0:11
+                                        </div>
+                                        <div class="personal-area__info__history-item-money">
+                                            +100$
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="personal-area__info__bottom">
+                                <div class="personal-area__info__bottom-referal">
+                                    Referral system
+                                    <span>?</span>
+                                </div>
+                                <div class="personal-area__info__bottom__block">
+                                    <span class="personal-area__info__bottom__block-bonus">
+                                        Bonuce: 0
+                                    </span>
+                                    <button class="personal-area__info__bottom__block-btn">
+                                        Сopy the referral link
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="personal-area__accounts">
+                        <h4 class="personal-area__accounts-title">
+                            My accounts
+                        </h4>
+                        <div class="personal-area__accounts__item">
+                            <p class="personal-area__accounts__item-text">
+                                EUW / 50lvl+ / 20+Skins / 30+Champions / 600 RP....
+                            </p>
+                            <span>116$</span>
+                        </div>
+                        <div class="personal-area__accounts__item">
+                            <p class="personal-area__accounts__item-text">
+                                EUW / 50lvl+ / 20+Skins / 30+Champions / 600 RP....
+                            </p>
+                            <span>116$</span>
+                        </div>
+                        <div class="personal-area__accounts__item">
+                            <p class="personal-area__accounts__item-text">
+                                EUW / 50lvl+ / 20+Skins / 30+Champions / 600 RP....
+                            </p>
+                            <span>116$</span>
+                        </div>
+                        <div class="personal-area__accounts__item">
+                            <p class="personal-area__accounts__item-text">
+                                EUW / 50lvl+ / 20+Skins / 30+Champions / 600 RP....
+                            </p>
+                            <span>116$</span>
+                        </div>
+                        <div class="personal-area__accounts__item">
+                            <p class="personal-area__accounts__item-text">
+                                EUW / 50lvl+ / 20+Skins / 30+Champions / 600 RP....
+                            </p>
+                            <span>116$</span>
+                        </div>
+                        <button class="personal-area__accounts-btn">
+                            View all purchases
+                        </button>
+                    </div>
+                </div>
+                <div class="accounts-wrap accounts--hidden">
+                    <div class="accounts">
+                        <h4 class="accounts-title">
+                            My accounts
+                        </h4>
+                        <button class="accounts-close-btn">
+                            <img class="accounts-close" src="images/close-acc.png" alt="close">
+                        </button>
+                        <div class="accounts__items">
+                            <div class="accounts__item">
+                                <p class="accounts__item-text">
+                                    EUW / 50lvl+ / 20+Skins / 30+Champions / 600 RP /Ranked Ready / Full Access
+                                </p>
+                                <div class="accounts__item__block">
+                                    <button class="accounts__item__block-btn">
+                                        <img src="images/copy .png" alt="copy-icon">
+                                        Copy data
+                                    </button>
+                                    <span class="accounts__item__block-price">116$</span>
+                                </div>
+                            </div>
+                            <div class="accounts__item">
+                                <p class="accounts__item-text">
+                                    EUW / 50lvl+ / 20+Skins / 30+Champions / 600 RP /Ranked Ready / Full Access
+                                </p>
+                                <div class="accounts__item__block">
+                                    <button class="accounts__item__block-btn">
+                                        <img src="images/copy .png" alt="copy-icon">
+                                        Copy data
+                                    </button>
+                                    <span class="accounts__item__block-price">116$</span>
+                                </div>
+                            </div>
+                            <div class="accounts__item">
+                                <p class="accounts__item-text">
+                                    EUW / 50lvl+ / 20+Skins / 30+Champions / 600 RP /Ranked Ready / Full Access
+                                </p>
+                                <div class="accounts__item__block">
+                                    <button class="accounts__item__block-btn">
+                                        <img src="images/copy .png" alt="copy-icon">
+                                        Copy data
+                                    </button>
+                                    <span class="accounts__item__block-price">116$</span>
+                                </div>
+                            </div>
+                            <div class="accounts__item">
+                                <p class="accounts__item-text">
+                                    EUW / 50lvl+ / 20+Skins / 30+Champions / 600 RP /Ranked Ready / Full Access
+                                </p>
+                                <div class="accounts__item__block">
+                                    <button class="accounts__item__block-btn">
+                                        <img src="images/copy .png" alt="copy-icon">
+                                        Copy data
+                                    </button>
+                                    <span class="accounts__item__block-price">116$</span>
+                                </div>
+                            </div>
+                            <div class="accounts__item">
+                                <p class="accounts__item-text">
+                                    EUW / 50lvl+ / 20+Skins / 30+Champions / 600 RP /Ranked Ready / Full Access
+                                </p>
+                                <div class="accounts__item__block">
+                                    <button class="accounts__item__block-btn">
+                                        <img src="images/copy .png" alt="copy-icon">
+                                        Copy data
+                                    </button>
+                                    <span class="accounts__item__block-price">116$</span>
+                                </div>
+                            </div>
+                            <div class="accounts__item">
+                                <p class="accounts__item-text">
+                                    EUW / 50lvl+ / 20+Skins / 30+Champions / 600 RP /Ranked Ready / Full Access
+                                </p>
+                                <div class="accounts__item__block">
+                                    <button class="accounts__item__block-btn">
+                                        <img src="images/copy .png" alt="copy-icon">
+                                        Copy data
+                                    </button>
+                                    <span class="accounts__item__block-price">116$</span>
+                                </div>
+                            </div>
+                            <div class="accounts__item">
+                                <p class="accounts__item-text">
+                                    EUW / 50lvl+ / 20+Skins / 30+Champions / 600 RP /Ranked Ready / Full Access
+                                </p>
+                                <div class="accounts__item__block">
+                                    <button class="accounts__item__block-btn">
+                                        <img src="images/copy .png" alt="copy-icon">
+                                        Copy data
+                                    </button>
+                                    <span class="accounts__item__block-price">116$</span>
+                                </div>
+                            </div>
+                            <div class="accounts__item">
+                                <p class="accounts__item-text">
+                                    EUW / 50lvl+ / 20+Skins / 30+Champions / 600 RP /Ranked Ready / Full Access
+                                </p>
+                                <div class="accounts__item__block">
+                                    <button class="accounts__item__block-btn">
+                                        <img src="images/copy .png" alt="copy-icon">
+                                        Copy data
+                                    </button>
+                                    <span class="accounts__item__block-price">116$</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/user-panel.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

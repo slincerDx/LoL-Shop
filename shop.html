@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,400;1,700&family=Inter:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="burger-menu active-menu-close">
+        <a class="burger-menu-logo" href="/">
+            <span>Elo</span>Work
+        </a>
+        <button class="burger-menu__btn-close">
+            <img src="images/close.png" alt="close">
+        </button>
+        <nav class="burger-menu__nav first-nav">
+            <div class="burger-menu__nav__block">
+                Menu
+                <btn id="btn-lang" class="select-language mobile">
+                    <span>EN</span>
+                    <img src="images/en-language.png" alt="en-language">
+                    <ul class="select-language__list-mobile  select-language__list--hidden">
+                      <li class="select-language__list-item">
+                        <img src="images/en-language.png" alt="flag">
+                        English
+                      </li>
+                      <li class="select-language__list-item">
+                        <img src="images/portugal-len.png" alt="flag">
+                        Portuguese
+                      </li>
+                    </ul>
+                  </btn>
+            </div>
+            <ul class="burger-menu__list">
+                <li class="burger-menu__list-item">
+                    <a class="burger-menu__list-link" href="">
+                        About us
+                    </a>
+                </li>
+                <li class="burger-menu__list-item">
+                    <a class="burger-menu__list-link" href="shop.html">
+                        Shop
+                    </a>
+                </li>
+                <li class="burger-menu__list-item">
+                    <a class="burger-menu__list-link" href="reviews.html">
+                        Reviews
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="burger-menu__nav">
+            <span class="burger-menu__nav-span">Need help?</span>
+            <ul class="burger-menu__list">
+                <li class="burger-menu__list-item">
+                    <a class="burger-menu__list-link" href="">
+                        Contact
+                    </a>
+                </li>
+                <li class="burger-menu__list-item">
+                    <a class="burger-menu__list-link" href="shop.html">
+                        FAQ
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="burger-menu__nav">
+            <span class="burger-menu__nav-span">Legal</span>
+            <ul class="burger-menu__list">
+                <li class="burger-menu__list-item">
+                    <a class="burger-menu__list-link" href="">
+                        Terms & Conditions
+                    </a>
+                </li>
+                <li class="burger-menu__list-item">
+                    <a class="burger-menu__list-link" href="shop.html">
+                        Privacy Policy
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <header class="header-mobile">
+        <a class="logo" href="index.html">
+            <span>Elo</span>Work
+        </a>
+        <btn class="burger-menu-btn">
+            <img src="images/menu.png" alt="menu">
+        </btn>
+    </header>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="index.html">
+                    <span>Elo</span>Work
+                </a>
+
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">About us</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Shop</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="reviews.html">Reviews</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="authorization">
+                    <a class="authorization-link" href="#">
+                        Login
+                    </a>
+                    <span>/</span>
+                    <a class="authorization-link" href="registration.html">
+                        Register
+                    </a>
+                    <btn id="btn-lan" class="select-language">
+                        <span>EN</span>
+                        <img src="images/en-language.png" alt="en-language">
+                    </btn>
+                    <ul class="select-language__list  select-language__list--hidden">
+                        <li class="select-language__list-item">
+                            <img src="images/en-language.png" alt="flag">
+                            English
+                        </li>
+                        <li class="select-language__list-item">
+                            <img src="images/portugal-len.png" alt="flag">
+                            Portuguese
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="shop">
+        <div class="container-shop">
+            <h2 class="shop-title">
+                Shop
+            </h2>
+            <div class="shop__top">
+                <div class="shop-filter">
+                    <div class="filter__left">
+                        <div class="filter__left-item">
+                            <p class="filter__left-item_text">
+                                Level
+                            </p>
+                            <input class="filter__left-item_input" type="text" placeholder="from">
+                        </div>
+                        <div class="filter__left-item">
+                            <p class="filter__left-item_text">
+                                <img src="images/riot-icon.png" alt="riot-coin">
+                                Riot Points
+                            </p>
+                            <input class="filter__left-item_input" type="text" placeholder="from">
+                        </div>
+                        <div class="filter__left-item">
+
+                            <p class="filter__left-item_text">
+                                <img src="images/blue-icon.png" alt="blue essence">
+                                Blue Essence
+                            </p>
+                            <input class="filter__left-item_input" type="text" placeholder="from">
+                        </div>
+                        <div class="filter__left-item">
+
+                            <p class="filter__left-item_text">
+                                <img src="images/mystic-icon.png" alt="Mythic Essence">
+                                Mythic Essence
+                            </p>
+                            <input class="filter__left-item_input" type="text" placeholder="from">
+                        </div>
+                        <button class="filter__left-item_btn">Apply</button>
+                    </div>
+                    <div class="filter__right">
+                        <div class="filter__right-item">
+                            <p class="filter__right-item_text filter__right-item_text-first">
+                                Rank
+                            </p>
+                            <div class="select-wrap">
+                                <div class="dropdown">
+                                    <button class="dropdown-btn dropdown-btn--border">
+                                        ALL
+                                    </button>
+                                    <ul class="dropdown__list dropdown__list--hidden">
+                                        <li class="dropdown__list-item" data-value="ALL">
+                                            ALL
+                                        </li>
+                                        <li class="dropdown__list-item" data-value="Iron">
+                                            Iron
+                                        </li>
+                                        <li class="dropdown__list-item" data-value="Bronze">
+                                            Bronze
+                                        </li>
+                                        <li class="dropdown__list-item" data-value="Silver">
+                                            Silver
+                                        </li>
+                                        <li class="dropdown__list-item" data-value="Gold">
+                                            Gold
+                                        </li>
+                                        <li class="dropdown__list-item" data-value="Platinum">
+                                            Platinum
+                                        </li>
+                                    </ul>
+                                    <input class="dropdown__input-hidden" type="text" value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter__right-item">
+                            <p class="filter__right-item_text">
+                                Skins
+                            </p>
+                            <button class="filter__right-item_btn">
+                                choose
+                            </button>
+                            <span class="filter__right-item_count">25</span>
+                        </div>
+                        <div class="filter__right-item">
+                            <p class="filter__right-item_text">
+                                Skins count
+                            </p>
+                            <input class="filter__right-item_input filter__input-right" type="text" placeholder="from">
+                        </div>
+                        <div class="filter__right-item">
+                            <p class="filter__right-item_text">
+                                Champions
+                            </p>
+                            <input class="filter__right-item_input filter__input-right" type="text" placeholder="from">
+                        </div>
+                        <div class="filter__right-price">
+                            <p class="filter__right-price_text">
+                                PRICE
+                            </p>
+                            <input class="filter__right-price_input" placeholder="min" type="text">
+                            <input class="filter__right-price_input" placeholder="max" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="select-sort">
+                    <button class="select-btn select-btn--border">
+                        <span class="select-btn-sorting">
+                            Sorting:
+                        </span>
+
+                        <span class="select-btn-name" data-value="by price - decreasing">
+                            by price - decreasing
+                        </span>
+
+                        <img class="select-btn-img " src="images/arrow-down.svg" alt="arrow-down">
+                    </button>
+                    <ul class="select-sort__list select-sort__list--hidden">
+                        <li class="select-sort__list-item" data-value="by price - decreasing">
+                            by price - decreasing
+                        </li>
+                        <li class="select-sort__list-item" data-value="by price - up">
+                            by price - up
+                        </li>
+                        <li class="select-sort__list-item" data-value="date - new">
+                            date - new
+                        </li>
+                        <li class="select-sort__list-item" data-value="date - old">
+                            date - old
+                        </li>
+                        <li class="select-sort__list-item" data-value="sort">
+                            sort
+                        </li>
+                        <li class="select-sort__list-item" data-value="sort new">
+                            sort new
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="shop__items">
+                <div class="shop__item recent__item">
+                    <img class="recent__item-img" src="images/recent-img.png" alt="img">
+                    <h5 class="recent__item-title">
+                        ACC #1 100.000 - Ony Account
+                    </h5>
+                    <p class="recent__item-text">
+                        116.20$
+                    </p>
+                    <a class="recent__item-link" href="shop-card.html">
+                        <button class="recent__item-btn">
+                            View account
+                        </button>
+                    </a>
+                    <div class="recent__item-description">
+                        <ul class="description__list description__list-left">
+                            <li class="description__list-item">
+                                Rank
+                            </li>
+                            <li class="description__list-item">
+                                Skins
+                            </li>
+                            <li class="description__list-item">
+                                Region
+                            </li>
+                        </ul>
+                        <ul class="description__list description__list-right">
+                            <li class="description__list-item">
+                                Gold
+                            </li>
+                            <li class="description__list-item">
+                                120
+                            </li>
+                            <li class="description__list-item">
+                                EU
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hot-sale">Hot Sale!</div>
+                </div>
+                <div class="shop__item recent__item">
+                    <img class="recent__item-img" src="images/recent-img.png" alt="img">
+                    <h5 class="recent__item-title">
+                        ACC #1 100.000 - Ony Account
+                    </h5>
+                    <p class="recent__item-text">
+                        116.20$
+                    </p>
+                    <a class="recent__item-link" href="shop-card.html">
+                        <button class="recent__item-btn">
+                            View account
+                        </button>
+                    </a>
+                    <div class="recent__item-description">
+                        <ul class="description__list description__list-left">
+                            <li class="description__list-item">
+                                Rank
+                            </li>
+                            <li class="description__list-item">
+                                Skins
+                            </li>
+                            <li class="description__list-item">
+                                Region
+                            </li>
+                        </ul>
+                        <ul class="description__list description__list-right">
+                            <li class="description__list-item">
+                                Gold
+                            </li>
+                            <li class="description__list-item">
+                                120
+                            </li>
+                            <li class="description__list-item">
+                                EU
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mystic">Mystic</div>
+                </div>
+                <div class="shop__item recent__item">
+                    <img class="recent__item-img" src="images/recent-img.png" alt="img">
+                    <h5 class="recent__item-title">
+                        ACC #1 100.000 - Ony Account
+                    </h5>
+                    <p class="recent__item-text">
+                        116.20$
+                    </p>
+                    <a class="recent__item-link" href="shop-card.html">
+                        <button class="recent__item-btn">
+                            View account
+                        </button>
+                    </a>
+                    <div class="recent__item-description">
+                        <ul class="description__list description__list-left">
+                            <li class="description__list-item">
+                                Rank
+                            </li>
+                            <li class="description__list-item">
+                                Skins
+                            </li>
+                            <li class="description__list-item">
+                                Region
+                            </li>
+                        </ul>
+                        <ul class="description__list description__list-right">
+                            <li class="description__list-item">
+                                Gold
+                            </li>
+                            <li class="description__list-item">
+                                120
+                            </li>
+                            <li class="description__list-item">
+                                EU
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="shop__item recent__item recent__item-mob">
+                    <img class="recent__item-img" src="images/recent-img.png" alt="img">
+                    <h5 class="recent__item-title">
+                        ACC #1 100.000 - Ony Account
+                    </h5>
+                    <p class="recent__item-text">
+                        116.20$
+                    </p>
+                    <a class="recent__item-link" href="shop-card.html">
+                        <button class="recent__item-btn">
+                            View account
+                        </button>
+                    </a>
+                    <div class="recent__item-description">
+                        <ul class="description__list description__list-left">
+                            <li class="description__list-item">
+                                Rank
+                            </li>
+                            <li class="description__list-item">
+                                Skins
+                            </li>
+                            <li class="description__list-item">
+                                Region
+                            </li>
+                        </ul>
+                        <ul class="description__list description__list-right">
+                            <li class="description__list-item">
+                                Gold
+                            </li>
+                            <li class="description__list-item">
+                                120
+                            </li>
+                            <li class="description__list-item">
+                                EU
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="shop__item recent__item recent__item-mob">
+                    <img class="recent__item-img" src="images/recent-img.png" alt="img">
+                    <h5 class="recent__item-title">
+                        ACC #1 100.000 - Ony Account
+                    </h5>
+                    <p class="recent__item-text">
+                        116.20$
+                    </p>
+                    <a class="recent__item-link" href="shop-card.html">
+                        <button class="recent__item-btn">
+                            View account
+                        </button>
+                    </a>
+                    <div class="recent__item-description">
+                        <ul class="description__list description__list-left">
+                            <li class="description__list-item">
+                                Rank
+                            </li>
+                            <li class="description__list-item">
+                                Skins
+                            </li>
+                            <li class="description__list-item">
+                                Region
+                            </li>
+                        </ul>
+                        <ul class="description__list description__list-right">
+                            <li class="description__list-item">
+                                Gold
+                            </li>
+                            <li class="description__list-item">
+                                120
+                            </li>
+                            <li class="description__list-item">
+                                EU
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="shop__item recent__item recent__item-mob">
+                    <img class="recent__item-img" src="images/recent-img.png" alt="img">
+                    <h5 class="recent__item-title">
+                        ACC #1 100.000 - Ony Account
+                    </h5>
+                    <p class="recent__item-text">
+                        116.20$
+                    </p>
+                    <a class="recent__item-link" href="shop-card.html">
+                        <button class="recent__item-btn">
+                            View account
+                        </button>
+                    </a>
+                    <div class="recent__item-description">
+                        <ul class="description__list description__list-left">
+                            <li class="description__list-item">
+                                Rank
+                            </li>
+                            <li class="description__list-item">
+                                Skins
+                            </li>
+                            <li class="description__list-item">
+                                Region
+                            </li>
+                        </ul>
+                        <ul class="description__list description__list-right">
+                            <li class="description__list-item">
+                                Gold
+                            </li>
+                            <li class="description__list-item">
+                                120
+                            </li>
+                            <li class="description__list-item">
+                                EU
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="shop__item recent__item recent__item-mob">
+                    <img class="recent__item-img" src="images/recent-img.png" alt="img">
+                    <h5 class="recent__item-title">
+                        ACC #1 100.000 - Ony Account
+                    </h5>
+                    <p class="recent__item-text">
+                        116.20$
+                    </p>
+                    <a class="recent__item-link" href="shop-card.html">
+                        <button class="recent__item-btn">
+                            View account
+                        </button>
+                    </a>
+                    <div class="recent__item-description">
+                        <ul class="description__list description__list-left">
+                            <li class="description__list-item">
+                                Rank
+                            </li>
+                            <li class="description__list-item">
+                                Skins
+                            </li>
+                            <li class="description__list-item">
+                                Region
+                            </li>
+                        </ul>
+                        <ul class="description__list description__list-right">
+                            <li class="description__list-item">
+                                Gold
+                            </li>
+                            <li class="description__list-item">
+                                120
+                            </li>
+                            <li class="description__list-item">
+                                EU
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="shop__item recent__item recent__item-mob">
+                    <img class="recent__item-img" src="images/recent-img.png" alt="img">
+                    <h5 class="recent__item-title">
+                        ACC #1 100.000 - Ony Account
+                    </h5>
+                    <p class="recent__item-text">
+                        116.20$
+                    </p>
+                    <a class="recent__item-link" href="shop-card.html">
+                        <button class="recent__item-btn">
+                            View account
+                        </button>
+                    </a>
+                    <div class="recent__item-description">
+                        <ul class="description__list description__list-left">
+                            <li class="description__list-item">
+                                Rank
+                            </li>
+                            <li class="description__list-item">
+                                Skins
+                            </li>
+                            <li class="description__list-item">
+                                Region
+                            </li>
+                        </ul>
+                        <ul class="description__list description__list-right">
+                            <li class="description__list-item">
+                                Gold
+                            </li>
+                            <li class="description__list-item">
+                                120
+                            </li>
+                            <li class="description__list-item">
+                                EU
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="shop-pagination">
+                <svg class="pagination-arrow_left" xmlns="http://www.w3.org/2000/svg" width="25" height="13"
+                    viewBox="0 0 25 13" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M6.49609 10.4023L4.71565 8.54739C4.33486 8.14812 4.61984 7.50247 5.17338 7.50247L23.9572 7.50247C24.6532 7.50247 25 6.94033 25 6.24942V6.2598C25 5.56888 24.6532 4.99881 23.9572 4.99881L5.1923 4.99881C4.63623 4.99881 4.35251 4.3244 4.73835 3.92764L6.50867 2.10269C6.98782 1.60453 6.96639 0.809997 6.45824 0.339384L6.45573 0.333891C5.95388 -0.131721 5.1671 -0.107437 4.69425 0.388212L0.688324 4.56607C-0.233404 5.53484 -0.228374 7.04956 0.697136 8.01334L4.66774 12.1161C5.13932 12.6068 5.91986 12.6305 6.42044 12.1686L6.43303 12.1558C6.93992 11.6889 6.96767 10.9029 6.49609 10.4023Z"
+                        fill="white" />
+                </svg>
+                <a class="pagination-counter" href="#">1</a>
+                <a class="pagination-counter" href="#">2</a>
+                <a class="pagination-counter" href="#">3</a>
+                <a class="pagination-counter" href="#">4</a>
+                <a class="pagination-counter" href="#">...</a>
+                <svg class="pagination-arrow_right" xmlns="http://www.w3.org/2000/svg" width="25" height="13"
+                    viewBox="0 0 25 13" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M18.5039 2.09787L20.2843 3.95273C20.6651 4.35201 20.3802 4.99765 19.8266 4.99765L1.04278 4.99765C0.34676 4.99765 -9.72105e-07 5.55979 -1.09291e-06 6.2507L-1.09109e-06 6.24033C-1.2119e-06 6.93124 0.346759 7.50131 1.04278 7.50131L19.8077 7.50132C20.3638 7.50132 20.6475 8.17572 20.2616 8.57248L18.4913 10.3974C18.0122 10.8956 18.0336 11.6901 18.5418 12.1607L18.5443 12.1662C19.0461 12.6318 19.8329 12.6076 20.3057 12.1119L24.3117 7.93406C25.2334 6.96528 25.2284 5.45057 24.3029 4.48679L20.3323 0.384007C19.8607 -0.106643 19.0801 -0.130333 18.5796 0.331517L18.567 0.344334C18.0601 0.811197 18.0323 1.59721 18.5039 2.09787Z"
+                        fill="white" />
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <div class="filter-wrap filter-wrap--hidden">
+        <div class="filter">
+            <span class="filter-name">
+                Choose skin
+            </span>
+            <input class="filter-input" placeholder="search skin" type="search">
+            <button class="filter-close-btn">
+                <img class="filter-close" src="images/close-selected.png" alt="close">
+            </button>
+            <div class="filter__items">
+                <ul class="filter__items__list">
+                    <li class="filter__items__list-item">
+                        Cosmic Defender Xin Zhao
+                    </li>
+                    <li class="filter__items__list-item">
+                        SSW Singed
+                    </li>
+                    <li class="filter__items__list-item">
+                        Marauder Olaf
+                    </li>
+                    <li class="filter__items__list-item">
+                        Cosmic Defender Xin Zhao
+                    </li>
+                    <li class="filter__items__list-item">
+                        Battle Bunny Miss Fortune
+                    </li>
+                    <li class="filter__items__list-item">
+                        SSW Singed
+                    </li>
+                    <li class="filter__items__list-item">
+                        Marauder Olaf
+                    </li>
+                </ul>
+            </div>
+
+            <div class="selected">
+                <ul class="selected__list">
+                    <li class="selected__list-item">
+                        Cosmic Defender Xin Zhao
+                        <button class="selected__list-item-close">
+                            <img src="images/close-selected.png" alt="close">
+                        </button>
+                    </li>
+                    <li class="selected__list-item">
+                        Cosmic Defender Xin Zhaoasdasdasd
+                        <button class="selected__list-item-close">
+                            <img src="images/close-selected.png" alt="close">
+                        </button>
+                    </li>
+                    <li class="selected__list-item">
+                        Cosmic Defender Xin Zhao
+                        <button class="selected__list-item-close">
+                            <img src="images/close-selected.png" alt="close">
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/shop.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoL</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,400;1,700&family=Inter:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <div class="burger-menu active-menu-close">
+        <a class="burger-menu-logo" href="/">
+          <span>Elo</span>Work
+        </a>
+        <button class="burger-menu__btn-close">
+          <img src="images/close.png" alt="close">
+        </button>
+        <nav class="burger-menu__nav first-nav">
+          <div class="burger-menu__nav__block">
+            Menu
+            <btn id="btn-lang" class="select-language mobile">
+              <span>EN</span>
+              <img src="images/en-language.png" alt="en-language">
+              <ul class="select-language__list-mobile  select-language__list--hidden">
+                <li class="select-language__list-item">
+                  <img src="images/en-language.png" alt="flag">
+                  English
+                </li>
+                <li class="select-language__list-item">
+                  <img src="images/portugal-len.png" alt="flag">
+                  Portuguese
+                </li>
+              </ul>
+            </btn>
+          </div>
+          <ul class="burger-menu__list">
+            <li class="burger-menu__list-item">
+              <a class="burger-menu__list-link" href="">
+                About us
+              </a>
+            </li>
+            <li class="burger-menu__list-item">
+              <a class="burger-menu__list-link" href="shop.html">
+                Shop
+              </a>
+            </li>
+            <li class="burger-menu__list-item">
+              <a class="burger-menu__list-link" href="reviews.html">
+                Reviews
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="burger-menu__nav">
+          <span class="burger-menu__nav-span">Need help?</span>
+          <ul class="burger-menu__list">
+            <li class="burger-menu__list-item">
+              <a class="burger-menu__list-link" href="">
+                Contact
+              </a>
+            </li>
+            <li class="burger-menu__list-item">
+              <a class="burger-menu__list-link" href="shop.html">
+                FAQ
+              </a>
+            </li>
+          </ul>
+        </nav>
+    
+        <nav class="burger-menu__nav">
+          <span class="burger-menu__nav-span">Legal</span>
+          <ul class="burger-menu__list">
+            <li class="burger-menu__list-item">
+              <a class="burger-menu__list-link" href="">
+                Terms & Conditions
+              </a>
+            </li>
+            <li class="burger-menu__list-item">
+              <a class="burger-menu__list-link" href="shop.html">
+                Privacy Policy
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    
+      <header class="header-mobile">
+        <a class="logo" href="index.html">
+          <span>Elo</span>Work
+        </a>
+        <btn class="burger-menu-btn">
+          <img src="images/menu.png" alt="menu">
+        </btn>
+      </header>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="index.html">
+                    <span>Elo</span>Work
+                </a>
+
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">About us</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Shop</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="reviews.html">Reviews</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a class="menu__list-link" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="authorization">
+                    <a class="authorization-link" href="login.html">
+                        Login
+                    </a>
+                    <span>/</span>
+                    <a class="authorization-link" href="registration.html">
+                        Register
+                    </a>
+                    <btn id="btn-lan" class="select-language">
+                      <span>EN</span>
+                      <img src="images/en-language.png" alt="en-language">
+                    </btn>
+                    <ul class="select-language__list  select-language__list--hidden">
+                      <li class="select-language__list-item">
+                        <img src="images/en-language.png" alt="flag">
+                        English
+                      </li>
+                      <li class="select-language__list-item">
+                        <img src="images/portugal-len.png" alt="flag">
+                        Portuguese
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="registration">
+        <div class="container">
+            <h1 class="registration-title">
+                Registration
+            </h1>
+
+            <form class="form">
+                <p class="form-mail">
+                    Email
+                </p>
+                <input class="form-input__mail" placeholder="email" type="text">
+        
+                <p class="form-name">
+                    Username
+                </p>
+                <input class="form-input__name" placeholder="username" type="text">
+
+                <p class="form-password">
+                    Password
+                </p>
+                <input class="form-input__password" placeholder="********" type="password">
+
+                <p class="form-password">
+                    Repeat Password
+                </p>
+                <input class="form-input__password" placeholder="********" type="password">
+
+                <button class="form-btn">
+                    Register to EloWork
+                </button>
+                <img class="form-img" src="images/icon-google.svg" alt="google-icon">
+                <p class="form-text">
+                    Already have an account?  <a class="form-text_link" href="login.html">Sign now!</a>
+                </p>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

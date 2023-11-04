@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LoL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,400;1,700&family=Inter:wght@400;500;600;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <div class="burger-menu active-menu-close">
+    <a class="burger-menu-logo" href="/">
+      <span>Elo</span>Work
+    </a>
+    <button class="burger-menu__btn-close">
+      <img src="images/close.png" alt="close">
+    </button>
+    <nav class="burger-menu__nav first-nav">
+      <div class="burger-menu__nav__block">
+        Menu
+        <btn id="btn-lang" class="select-language mobile">
+          <span>EN</span>
+          <img src="images/en-language.png" alt="en-language">
+          <ul class="select-language__list-mobile  select-language__list--hidden">
+            <li class="select-language__list-item">
+              <img src="images/en-language.png" alt="flag">
+              English
+            </li>
+            <li class="select-language__list-item">
+              <img src="images/portugal-len.png" alt="flag">
+              Portuguese
+            </li>
+          </ul>
+        </btn>
+      </div>
+      <ul class="burger-menu__list">
+        <li class="burger-menu__list-item">
+          <a class="burger-menu__list-link" href="">
+            About us
+          </a>
+        </li>
+        <li class="burger-menu__list-item">
+          <a class="burger-menu__list-link" href="shop.html">
+            Shop
+          </a>
+        </li>
+        <li class="burger-menu__list-item">
+          <a class="burger-menu__list-link" href="reviews.html">
+            Reviews
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="burger-menu__nav">
+      <span class="burger-menu__nav-span">Need help?</span>
+      <ul class="burger-menu__list">
+        <li class="burger-menu__list-item">
+          <a class="burger-menu__list-link" href="">
+            Contact
+          </a>
+        </li>
+        <li class="burger-menu__list-item">
+          <a class="burger-menu__list-link" href="shop.html">
+            FAQ
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <nav class="burger-menu__nav">
+      <span class="burger-menu__nav-span">Legal</span>
+      <ul class="burger-menu__list">
+        <li class="burger-menu__list-item">
+          <a class="burger-menu__list-link" href="">
+            Terms & Conditions
+          </a>
+        </li>
+        <li class="burger-menu__list-item">
+          <a class="burger-menu__list-link" href="shop.html">
+            Privacy Policy
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <header class="header-mobile">
+    <a class="logo" href="index.html">
+      <span>Elo</span>Work
+    </a>
+    <btn class="burger-menu-btn">
+      <img src="images/menu.png" alt="menu">
+    </btn>
+  </header>
+
+  <header class="header header-main">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="index.html">
+          <span>Elo</span>Work
+        </a>
+
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">About us</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="shop.html">Shop</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="reviews.html">Reviews</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="user-panel.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <btn class="burger-menu-btn">
+          <img src="images/menu.png" alt="menu">
+        </btn>
+
+        <div class="authorization">
+          <a class="authorization-link" href="login.html">
+            Login
+          </a>
+          <span>/</span>
+          <a class="authorization-link" href="registration.html">
+            Register
+          </a>
+          <btn id="btn-lan" class="select-language">
+            <span>EN</span>
+            <img src="images/en-language.png" alt="en-language">
+          </btn>
+          <ul class="select-language__list  select-language__list--hidden">
+            <li class="select-language__list-item">
+              <img src="images/en-language.png" alt="flag">
+              English
+            </li>
+            <li class="select-language__list-item">
+              <img src="images/portugal-len.png" alt="flag">
+              Portuguese
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="header__content">
+        <h1 class="header__content-title">
+          <span>Trusted store</span> of Lol accounts for every taste
+        </h1>
+        <div class="header__bottom">
+          <a href="login.html" class="header__content-login">
+            <button class="header__bottom-btn">
+              <div class="header__bottom-btn_inner">
+                LOGIN
+              </div>
+            </button>
+          </a>
+          <a href="registration.html" class="header__content-registration">
+            <button class="header__bottom-btn">
+              <div class="header__bottom-btn_inner header__bottom-register">
+                REGISTER
+              </div>
+            </button>
+          </a>
+          <p class="header__bottom-text">
+            <a class="header__bottom-link" href="#">
+              VIEWING SHOP
+            </a>
+          </p>
+          <img class="header__bottom-img" src="images/header-bg-lines.svg" alt="line">
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <section class="security">
+      <div class="container">
+        <h1 class="security-title">
+          <strong>We guarantee</strong> security
+        </h1>
+        <div class="security__block">
+          <div class="security__block-left">
+            <div class="security__item">
+              <img class="security__item-icon" src="images/24-hour 1.png" alt="icon">
+              <h5 class="security__item-title">
+                Instant Delivery 24/7
+              </h5>
+              <p class="security__item-text">
+                When you buy a smurf from <br> us, it will be delivered to you <br> instantly via email
+              </p>
+            </div>
+
+            <div class="security__item">
+              <img class="security__item-icon" src="images/warranty.png" alt="icon">
+              <h5 class="security__item-title">
+                Instant Delivery 24/7
+              </h5>
+              <p class="security__item-text">
+                When you buy a smurf from <br> us, it will be delivered to you <br> instantly via email
+              </p>
+            </div>
+          </div>
+          <div class="security__block-right">
+            <div class="security__item">
+              <img class="security__item-icon" src="images/support.png" alt="icon">
+              <h5 class="security__item-title">
+                Instant Delivery 24/7
+              </h5>
+              <p class="security__item-text">
+                When you buy a smurf from <br> us, it will be delivered to you <br> instantly via email
+              </p>
+            </div>
+            <div class="security__item">
+              <img class="security__item-icon" src="images/cyber-security.png" alt="icon">
+              <h5 class="security__item-title">
+                Instant Delivery 24/7
+              </h5>
+              <p class="security__item-text">
+                When you buy a smurf from <br> us, it will be delivered to you <br> instantly via email
+              </p>
+            </div>
+            <img class="security-img" src="images/security-bg.png" alt="bg-security">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="recent">
+      <div class="container">
+        <div class="recent__top">
+          <h1 class="recent__top-title">
+            Recent accounts
+          </h1>
+          <a class="recent__top-link" href="#">
+            VIEW ALL
+          </a>
+        </div>
+      </div>
+      <div class="swiper">
+        <div class="recent__items swiper-wrapper">
+          <div class="recent__item swiper-slide">
+            <img class="recent__item-img" src="images/recent-img.png" alt="img">
+            <h5 class="recent__item-title">
+              ACC #1 100.000 - Ony Account
+            </h5>
+            <p class="recent__item-text">
+              116.20$
+            </p>
+            <a class="recent__item-link" href="shop-card.html">
+              <button class="recent__item-btn">
+                View account
+              </button>
+            </a>
+            <div class="recent__item-description">
+              <ul class="description__list description__list-left">
+                <li class="description__list-item">
+                  Rank
+                </li>
+                <li class="description__list-item">
+                  Skins
+                </li>
+                <li class="description__list-item">
+                  Region
+                </li>
+              </ul>
+              <ul class="description__list description__list-right">
+                <li class="description__list-item">
+                  Gold
+                </li>
+                <li class="description__list-item">
+                  120
+                </li>
+                <li class="description__list-item">
+                  EU
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="recent__item swiper-slide">
+            <img class="recent__item-img" src="images/recent-img.png" alt="img">
+            <h5 class="recent__item-title">
+              ACC #1 100.000 - Ony Account
+            </h5>
+            <p class="recent__item-text">
+              116.20$
+            </p>
+            <a class="recent__item-link" href="shop-card.html">
+              <button class="recent__item-btn">
+                View account
+              </button>
+            </a>
+            <div class="recent__item-description">
+              <ul class="description__list description__list-left">
+                <li class="description__list-item">
+                  Rank
+                </li>
+                <li class="description__list-item">
+                  Skins
+                </li>
+                <li class="description__list-item">
+                  Region
+                </li>
+              </ul>
+              <ul class="description__list description__list-right">
+                <li class="description__list-item">
+                  Gold
+                </li>
+                <li class="description__list-item">
+                  120
+                </li>
+                <li class="description__list-item">
+                  EU
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="recent__item swiper-slide">
+            <img class="recent__item-img" src="images/recent-img.png" alt="img">
+            <h5 class="recent__item-title">
+              ACC #1 100.000 - Ony Account
+            </h5>
+            <p class="recent__item-text">
+              116.20$
+            </p>
+            <a class="recent__item-link" href="shop-card.html">
+              <button class="recent__item-btn">
+                View account
+              </button>
+            </a>
+            <div class="recent__item-description">
+              <ul class="description__list description__list-left">
+                <li class="description__list-item">
+                  Rank
+                </li>
+                <li class="description__list-item">
+                  Skins
+                </li>
+                <li class="description__list-item">
+                  Region
+                </li>
+              </ul>
+              <ul class="description__list description__list-right">
+                <li class="description__list-item">
+                  Gold
+                </li>
+                <li class="description__list-item">
+                  120
+                </li>
+                <li class="description__list-item">
+                  EU
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="recent__item swiper-slide">
+            <img class="recent__item-img" src="images/recent-img.png" alt="img">
+            <h5 class="recent__item-title">
+              ACC #1 100.000 - Ony Account
+            </h5>
+            <p class="recent__item-text">
+              116.20$
+            </p>
+            <a class="recent__item-link" href="shop-card.html">
+              <button class="recent__item-btn">
+                View account
+              </button>
+            </a>
+            <div class="recent__item-description">
+              <ul class="description__list description__list-left">
+                <li class="description__list-item">
+                  Rank
+                </li>
+                <li class="description__list-item">
+                  Skins
+                </li>
+                <li class="description__list-item">
+                  Region
+                </li>
+              </ul>
+              <ul class="description__list description__list-right">
+                <li class="description__list-item">
+                  Gold
+                </li>
+                <li class="description__list-item">
+                  120
+                </li>
+                <li class="description__list-item">
+                  EU
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="recent__item swiper-slide">
+            <img class="recent__item-img" src="images/recent-img.png" alt="img">
+            <h5 class="recent__item-title">
+              ACC #1 100.000 - Ony Account
+            </h5>
+            <p class="recent__item-text">
+              116.20$
+            </p>
+            <a class="recent__item-link" href="shop-card.html">
+              <button class="recent__item-btn">
+                View account
+              </button>
+            </a>
+            <div class="recent__item-description">
+              <ul class="description__list description__list-left">
+                <li class="description__list-item">
+                  Rank
+                </li>
+                <li class="description__list-item">
+                  Skins
+                </li>
+                <li class="description__list-item">
+                  Region
+                </li>
+              </ul>
+              <ul class="description__list description__list-right">
+                <li class="description__list-item">
+                  Gold
+                </li>
+                <li class="description__list-item">
+                  120
+                </li>
+                <li class="description__list-item">
+                  EU
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="recent__item swiper-slide">
+            <img class="recent__item-img" src="images/recent-img.png" alt="img">
+            <h5 class="recent__item-title">
+              ACC #1 100.000 - Ony Account
+            </h5>
+            <p class="recent__item-text">
+              116.20$
+            </p>
+            <a class="recent__item-link" href="shop-card.html">
+              <button class="recent__item-btn">
+                View account
+              </button>
+            </a>
+            <div class="recent__item-description">
+              <ul class="description__list description__list-left">
+                <li class="description__list-item">
+                  Rank
+                </li>
+                <li class="description__list-item">
+                  Skins
+                </li>
+                <li class="description__list-item">
+                  Region
+                </li>
+              </ul>
+              <ul class="description__list description__list-right">
+                <li class="description__list-item">
+                  Gold
+                </li>
+                <li class="description__list-item">
+                  120
+                </li>
+                <li class="description__list-item">
+                  EU
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="recent__item swiper-slide">
+            <img class="recent__item-img" src="images/recent-img.png" alt="img">
+            <h5 class="recent__item-title">
+              ACC #1 100.000 - Ony Account
+            </h5>
+            <p class="recent__item-text">
+              116.20$
+            </p>
+            <a class="recent__item-link" href="shop-card.html">
+              <button class="recent__item-btn">
+                View account
+              </button>
+            </a>
+            <div class="recent__item-description">
+              <ul class="description__list description__list-left">
+                <li class="description__list-item">
+                  Rank
+                </li>
+                <li class="description__list-item">
+                  Skins
+                </li>
+                <li class="description__list-item">
+                  Region
+                </li>
+              </ul>
+              <ul class="description__list description__list-right">
+                <li class="description__list-item">
+                  Gold
+                </li>
+                <li class="description__list-item">
+                  120
+                </li>
+                <li class="description__list-item">
+                  EU
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+      </div>
+
+    </section>
+
+    <section class="faq">
+      <div class="container">
+        <h1 class="faq-title">
+          FAQ
+        </h1>
+
+        <div class="faq__inner">
+          <img class="faq__inner-img" src="images/faq-bg.png" alt="faq-bg">
+          <div class="faq__items">
+            <div class="faq__item">
+              <div class="faq__item-question">
+                <p class="faq__item-question-text">
+                  Can i change the account password and email?
+                </p>
+                <img class="faq__item-question-icon" src="images/arrow-down.svg" alt="arrow-down">
+              </div>
+              <div class="faq__item-answer">
+                <p class="faq__item-answer-text">
+                  Yes! All of our LoL accounts come with login details so you can log in to your account via League of
+                  Legends website and change anything you like.
+                </p>
+              </div>
+            </div>
+            <div class="faq__item">
+              <div class="faq__item-question">
+                <p class="faq__item-question-text">
+                  How to change your E-Mail and Password
+                </p>
+                <img class="faq__item-question-icon" src="images/arrow-down.svg" alt="arrow-down">
+              </div>
+              <div class="faq__item-answer">
+                <p class="faq__item-answer-text">
+                  Yes! All of our LoL accounts come with login details so you can log in to your account via League of
+                  Legends website and change anything you like.
+                </p>
+              </div>
+            </div>
+            <div class="faq__item">
+              <div class="faq__item-question">
+                <p class="faq__item-question-text">
+                  What is your lifetime ban warranty?
+                </p>
+                <img class="faq__item-question-icon" src="images/arrow-down.svg" alt="arrow-down">
+              </div>
+              <div class="faq__item-answer">
+                <p class="faq__item-answer-text">
+                  Yes! All of our LoL accounts come with login details so you can log in to your account via League of
+                  Legends website and change anything you like.
+                </p>
+              </div>
+            </div>
+            <div class="faq__item">
+              <div class="faq__item-question">
+                <p class="faq__item-question-text">
+                  Is it safe to buy League of Legends smurfs?
+                </p>
+                <img class="faq__item-question-icon" src="images/arrow-down.svg" alt="arrow-down">
+              </div>
+              <div class="faq__item-answer">
+                <p class="faq__item-answer-text">
+                  Yes! All of our LoL accounts come with login details so you can log in to your account via League of
+                  Legends website and change anything you like.
+                </p>
+              </div>
+            </div>
+            <div class="faq__item">
+              <div class="faq__item-question">
+                <p class="faq__item-question-text">
+                  Can I start playing ranked immediately?
+                </p>
+                <img class="faq__item-question-icon" src="images/arrow-down.svg" alt="arrow-down">
+              </div>
+              <div class="faq__item-answer">
+                <p class="faq__item-answer-text">
+                  Yes! All of our LoL accounts come with login details so you can log in to your account via League of
+                  Legends website and change anything you like.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__items">
+        <div class="footer__item">
+          <a class="logo" href="#">
+            <span>Elo</span>Work
+          </a>
+          <p class="footer__item-text">
+            League of Legends is a registered trademark of Riot Games, Inc. We are in no way affiliated with, associated
+            with or endorsed by Riot Games, Inc.
+          </p>
+        </div>
+
+        <div class="footer__item media">
+          <nav class="footer-menu">
+            <h5 class="footer-menu__title">
+              Menu
+            </h5>
+            <ul class="footer-menu__list">
+              <li class="footer-menu__list-item">
+                <a class="footer-menu__list-link" href="#">
+                  About us
+                </a>
+              </li>
+              <li class="footer-menu__list-item">
+                <a class="footer-menu__list-link" href="#">
+                  Shop
+                </a>
+              </li>
+              <li class="footer-menu__list-item">
+                <a class="footer-menu__list-link" href="#">
+                  Reviews
+                </a>
+              </li>
+              <li class="footer-menu__list-item">
+                <a class="footer-menu__list-link" href="#">
+                  Blog
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer__item media">
+          <nav class="footer-menu">
+            <h5 class="footer-menu__title">
+              Need help?
+            </h5>
+            <ul class="footer-menu__list">
+              <li class="footer-menu__list-item">
+                <a class="footer-menu__list-link" href="#">
+                  Contact
+                </a>
+              </li>
+              <li class="footer-menu__list-item">
+                <a class="footer-menu__list-link" href="#">
+                  FAQ
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer__item media">
+          <nav class="footer-menu">
+            <h5 class="footer-menu__title">
+              Legal
+            </h5>
+            <ul class="footer-menu__list">
+              <li class="footer-menu__list-item">
+                <a class="footer-menu__list-link" href="#">
+                  Terms & Conditions
+                </a>
+              </li>
+              <li class="footer-menu__list-item">
+                <a class="footer-menu__list-link" href="#">
+                  Privacy Policy
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <p class="footer-copyright">
+        2023 © Elowork.com - All Rights Reserved
+      </p>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
