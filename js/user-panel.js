@@ -11,7 +11,6 @@ function closeAccounts () {
 accountsOpen.addEventListener('click', () => {
     accountsWrap.classList.remove('accounts--hidden');
     document.body.style.overflow = 'hidden';
-    console.log('fsdfds');
 })
 
 accountsClose.addEventListener('click', () => {
